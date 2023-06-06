@@ -1,0 +1,56 @@
+ 333  git init
+  334  touch comandos.txt main.js index.html
+  335  git add .
+  336  git commit -m "commit 01 de SofiaMillan"
+  337  git branch -M main
+  338  git remote add origin git@github.com:sofmillan/20230605-SofiaMillan.git
+  339  git push -u origin main
+  340  git checkout -b feature01
+  341  mkdir Terminal Hardware
+  342  cd Terminal
+  343  touch resumen.txt
+  344  cd ..
+  345  cd Hardware
+  346  touch resumen.txt
+  347  git add .
+  348  git commit -m "commit 02 de SofiaMillan"
+  349  git push
+  350  git push --set-upstream origin feature01
+  351  cd ..
+  352  cd Terminal
+  353  ls
+  354  git init
+  355  touch comandos.txt main.js index.html
+  356  git add .
+  357  git commit -m "commit 01 de SofiaMillan"
+  358  git branch -M main
+  359  git remote add origin git@github.com:sofmillan/20230605-SofiaMillan.git
+  360  git push -u origin main
+  361  git checkout -b feature01
+  362  mkdir Terminal Hardware
+  363  cd Terminal
+  364  touch resumen.txt
+  365  cd ..
+  366  cd Hardware
+  367  touch resumen.txt
+  368  cd ..
+  369  git add .
+  370  git commit -m "commit 02 de SofiaMillan"
+  371  git push
+  372  git push --set-upstream origin feature01
+  373  git checkout -b feature02
+  374  cd Terminal
+  375  nano resumen.txt
+  376  nano resumen.txt
+  377  cd ..
+  378  cd Hardware
+  379  nano resumen.txt
+  380  nano resumen.txt
+  381  cd ..
+  382  git add .
+  383  git commit -m "commit 03 de SofiaMillan"
+  384  git push
+  385  git push --set-upstream origin feature02
+  386  git checkout main
+  387  mv comandos.txt comandosUtilizados.txt
+  388  history
