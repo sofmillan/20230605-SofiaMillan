@@ -1,0 +1,5 @@
+git init
+git add <nombreArchivo>
+git commit -m "Mensaje"
+git checkout -b <nombreRama>
+git push

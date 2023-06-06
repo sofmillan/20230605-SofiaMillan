@@ -1,0 +1,4 @@
+RAM
+Placa de video
+Placa madre
+
